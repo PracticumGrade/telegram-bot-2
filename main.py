@@ -101,12 +101,12 @@ def wake_up(update, context):
 
 # Добавьте обработчики команд 'start' и 'menu', а также обработчик текстовых сообщений.
 # На 'start' вызывайте wake_up
-updater.dispatcher.add_handler(...)
+# updater.dispatcher.add_handler(...)
 # На 'menu' — show_menu
-updater.dispatcher.add_handler(...)
+# updater.dispatcher.add_handler(...)
 # У обработчика сообщений — MessageHandler — должен быть фильтр Filters.text
 # и в ответ он должен вызывать process_order 
-updater.dispatcher.add_handler(...)
+# updater.dispatcher.add_handler(...)
 
 # Стартуйте polling
 # Вызовите для этого на объекте updater 
